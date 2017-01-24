@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Blood_Bank.UI.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blood_Bank.UI"
+        mc:Ignorable="d"
+        d:DesignHeight="600" d:DesignWidth="800">
+    <Grid Name="LoginRoot" Background="White">
+        <Image Source="/Blood Bank;component/Resources/cover3.png" Margin="10,40,413,27"/>
+        <Image Source="/Blood Bank;component/Resources/cover2.png" Margin="378,118,19,276"/>
+        <GroupBox x:Name="loginGroupBox" Header="Sign In" HorizontalAlignment="Left" Margin="406,324,0,0" VerticalAlignment="Top" Width="349" Height="161" FontWeight="Bold" FontSize="13"/>
+        <TextBox x:Name="emailTextBox" HorizontalAlignment="Left" Height="25" Margin="470,377,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" FontSize="15"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="470,407,0,0" VerticalAlignment="Top" Width="250" Height="25"/>
+        <Button x:Name="loginButton" Background="WhiteSmoke" Content="Sign In" HorizontalAlignment="Left" Margin="645,440,0,0" VerticalAlignment="Top" Width="75" Height="25" FontSize="14" Click="SignInButton_Click" RenderTransformOrigin="1.013,0.417"/>
+        <Button x:Name="backButton" Background="Transparent" Content="&lt;---" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="59" Height="25" FontSize="14" Click="backButton_Click" RenderTransformOrigin="1.013,0.417"/>
+
+    </Grid>
+</UserControl>

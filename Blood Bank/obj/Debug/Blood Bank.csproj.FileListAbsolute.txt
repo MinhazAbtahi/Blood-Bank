@@ -1,0 +1,50 @@
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\MainWindow.g.cs
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\UI\Login.g.cs
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\UI\Register.g.cs
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\UI\Start.g.cs
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\UI\UserInfo.g.cs
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\UI\UserProfile.g.cs
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\App.g.cs
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\Blood Bank_MarkupCompile.cache
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\Blood Bank_MarkupCompile.lref
+D:\C# .NET\Blood Bank\Blood Bank\bin\Debug\Blood Bank.exe.config
+D:\C# .NET\Blood Bank\Blood Bank\bin\Debug\Blood Bank.exe
+D:\C# .NET\Blood Bank\Blood Bank\bin\Debug\Blood Bank.pdb
+D:\C# .NET\Blood Bank\Blood Bank\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\MainWindow.baml
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\UI\Login.baml
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\UI\Register.baml
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\UI\Start.baml
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\UI\UserInfo.baml
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\UI\UserProfile.baml
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\Blood Bank.g.resources
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\Blood_Bank.Properties.Resources.resources
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\Blood Bank.csproj.GenerateResource.Cache
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\Blood Bank.exe
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\Blood Bank.pdb
+D:\C# .NET\Blood Bank\Blood Bank\obj\Debug\Blood Bank.csprojResolveAssemblyReference.cache
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\bin\Debug\Blood Bank.exe.config
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\Blood Bank.exe
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\Blood Bank.pdb
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\bin\Debug\Blood Bank.exe
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\bin\Debug\Blood Bank.pdb
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\Blood Bank.csprojResolveAssemblyReference.cache
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\MainWindow.g.cs
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\UI\Login.g.cs
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\UI\Register.g.cs
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\UI\Start.g.cs
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\UI\UserInfo.g.cs
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\UI\UserProfile.g.cs
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\App.g.cs
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\Blood Bank_MarkupCompile.cache
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\Blood Bank_MarkupCompile.lref
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\MainWindow.baml
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\UI\Login.baml
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\UI\Register.baml
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\UI\Start.baml
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\UI\UserInfo.baml
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\UI\UserProfile.baml
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\Blood Bank.g.resources
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\Blood_Bank.Properties.Resources.resources
+C:\Users\Abtahi\Desktop\Blood Bank\Blood Bank\obj\Debug\Blood Bank.csproj.GenerateResource.Cache

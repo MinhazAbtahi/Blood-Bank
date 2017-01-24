@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="Blood_Bank.UI.UserInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blood_Bank.UI"
+        mc:Ignorable="d"
+        d:DesignHeight="600" d:DesignWidth="800">
+    <Grid x:Name="userInfoRoot" Background="White">
+        <GroupBox x:Name="groupBox" Header="Blood Donor Information" HorizontalAlignment="Left" Margin="10,187,0,0" VerticalAlignment="Top" Width="768" Height="383" FontSize="14" FontWeight="Bold">
+            <DataGrid x:Name="userDataGrid" Background="WhiteSmoke" HorizontalAlignment="Left" AutoGenerateColumns="False" Margin="7,10,0,0" VerticalAlignment="Top" Width="740" Height="339" FontSize="13" FontWeight="Normal">
+                <DataGrid.Columns>
+                    <DataGridTextColumn x:Name="firstNameCol" Binding="{Binding FIRSTNAME}" ClipboardContentBinding="{x:Null}" Header="First Name" Width="100" CanUserResize="False"/>
+                    <DataGridTextColumn x:Name="lastNameCol" Binding="{Binding LASTNAME}" ClipboardContentBinding="{x:Null}" Header="Last Name" Width="100" CanUserResize="False"/>
+                    <DataGridTextColumn x:Name="bloodGroupCol" Binding="{Binding BLOOD_GROUP}" ClipboardContentBinding="{x:Null}" Header="Blood Group" Width="90" CanUserResize="False" FontWeight="Bold"/>
+                    <DataGridTextColumn x:Name="emailCol" Binding="{Binding EMAIL}" ClipboardContentBinding="{x:Null}" Header="Email" Width="120" CanUserResize="False"/>
+                    <DataGridTextColumn x:Name="contactNoCol" Binding="{Binding CONTACT_NO}" ClipboardContentBinding="{x:Null}" Header="Contact No" Width="120" CanUserResize="False"/>
+                    <DataGridTextColumn x:Name="addressCol" Binding="{Binding ADDRESS}" ClipboardContentBinding="{x:Null}" Header="Address" Width="*" CanUserResize="False"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </GroupBox>
+        <Menu x:Name="menuTray" Background="WhiteSmoke" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="800">
+            <MenuItem x:Name="fileMenuItem" Background="WhiteSmoke" Header="File" Height="28" FontSize="14">
+                <MenuItem x:Name="donorListSubMenuItem" Background="WhiteSmoke" ToolTip="Loads Blood Donor List." Header="Donor List" Click="donorListSubMenuItem_Click"/>
+                <MenuItem x:Name="logoutSubMenuItem" Background="WhiteSmoke" Header="Log Out" Click="logoutSubMenuItem_Click"/>
+                <MenuItem x:Name="exitSubMenuItem" Background="WhiteSmoke" Header="Exit" Click="exitSubMenuItem_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="userMenuItem" Background="WhiteSmoke" Header="User" Height="28" FontSize="14">
+                <MenuItem x:Name="profileSubMenuItem" Background="WhiteSmoke" Header="Profile" Click="profileSubMenuItem_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="aboutMenuItem" Background="WhiteSmoke" Height="28" Header="About" FontSize="14">
+                <MenuItem x:Name="aboutSubMenuItem" Background="WhiteSmoke" Header="About..." Click="aboutSubMenuItem_Click"/>
+            </MenuItem>
+        </Menu>
+
+        <TextBox x:Name="emailTextBox" HorizontalAlignment="Left" Height="26" Margin="502,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" FontSize="14"/>
+        <Button x:Name="searchByEmailButton" Background="WhiteSmoke" Content="Search" HorizontalAlignment="Left" Margin="671,114,0,0" VerticalAlignment="Top" Width="90" Click="searchByEmailButton_Click" FontSize="14" Height="25" ToolTip="Search by Email."/>
+        <ComboBox x:Name="bloodGroupComboBox" Background="WhiteSmoke" HorizontalAlignment="Left" Margin="502,145,0,0" VerticalAlignment="Top" Width="120" Height="25" FontSize="14">
+            <ComboBoxItem Content="AB+"/>
+            <ComboBoxItem Content="A+"/>
+            <ComboBoxItem Content="B+"/>
+            <ComboBoxItem Content="O+"/>
+            <ComboBoxItem Content="O-"/>
+            <ComboBoxItem Content="B-"/>
+            <ComboBoxItem Content="A-"/>
+            <ComboBoxItem Content="AB-"/>
+        </ComboBox>
+
+        <Button x:Name="searchByBGButton" Background="WhiteSmoke" Content="Search" HorizontalAlignment="Left" Margin="671,145,0,0" VerticalAlignment="Top" Width="90" Click="SearchByBGButton_Click" FontSize="14" Height="25" ToolTip="Search by Blood Group."/>
+        <Label x:Name="label_Copy2" Content="Blood Group:" HorizontalAlignment="Left" Margin="401,142,0,0" VerticalAlignment="Top" FontSize="14" Height="25"/>
+        <Label x:Name="Email_" Content="Email:" HorizontalAlignment="Left" Margin="401,112,0,0" VerticalAlignment="Top" FontSize="14" Height="25"/>
+        <GroupBox x:Name="navigationGroupBox" Header="Search Blood Donor" HorizontalAlignment="Left" Margin="385,83,0,0" VerticalAlignment="Top" Width="393" Height="104" FontSize="14" FontWeight="Bold"/>
+        <ToolBarTray HorizontalAlignment="Left" Height="40" Margin="0,27,0,0" VerticalAlignment="Top" Width="800">
+            <ToolBar x:Name="toolBar1" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="178">
+                <Button x:Name="donorListButton" Height="40" Width="40" Margin="0,0,0,-5" Click="donorListButton_Click" ToolTip="Refresh Blood Donor List.">
+                    <Image Source="/Blood Bank;component/Resources/reload.png" Height="35" Width="35"/>
+                </Button>
+                <Button x:Name="profileButton" Width="40" Height="40" Margin="0,0,0,-5" Click="profileButton_Click" ToolTip="User Profile">
+                    <Image Source="/Blood Bank;component/Resources/profile.png" Width="35" Height="35"/>
+                </Button>
+                <Button x:Name="logoutButton" Width="40" Height="40" Margin="0,0,0,-5" Click="logoutButton_Click" ToolTip="Log Out">
+                    <Image Source="/Blood Bank;component/Resources/logout.png" Width="35" Height="35"/>
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
+    </Grid>
+</UserControl>
