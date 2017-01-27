@@ -12,7 +12,7 @@ namespace Blood_Bank.DataAccess
     /// </summary>
     public class AccessDB
     {
-        const string CONNECTION_STRING = "User Id=root;Password=minhaz068117;" + "Data Source=localhost:1521/XE;Pooling=false;";
+        const string CONNECTION_STRING = "User Id=root;Password=password;" + "Data Source=localhost:1521/XE;Pooling=false;";
 
         public OracleConnection connection = new OracleConnection(CONNECTION_STRING);
 
